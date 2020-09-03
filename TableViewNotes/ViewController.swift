@@ -23,11 +23,15 @@ class ViewController: UIViewController {
     }
 }
 
+//MARK: - UITableViewDataSource
+
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
           return teams.count
     }
 }
+
+//MARK: - UITableViewDelegate
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
