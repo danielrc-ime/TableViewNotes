@@ -4,6 +4,7 @@ Haciendo apuntes para cuando pierda la memoria
 ## Comenzando 🚀
 
 1.- Crear TableView desde StoryBoard
+
 2.- Crear @IBOutlet hacia ViewController
 ```
 @IBOutlet weak var tableView: UITableView!
@@ -41,5 +42,5 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
     }
 ```
 
-#Referencias:
+## Referencias:
 https://www.efectoapple.com/tutorial-introduccion-uitableview/
